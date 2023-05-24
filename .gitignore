@@ -1,0 +1,9 @@
+/sacreeos.egg-info/*
+/dist/*
+/build/*
+/demo/data/*.pickle
+/demo/data/sample_coco_refss.py
+/demo/data/sample_coco_test.py
+/sacreeos/metric/c_core/c_scorer/obj/*
+/sacreeos/metric/c_core/c_scorer/c_core_lib.so
+
