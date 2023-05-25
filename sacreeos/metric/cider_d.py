@@ -79,7 +79,7 @@ class CiderD(Metric):
         return self.n
 
     def get_sigma(self):
-        """ Return the gaussial length penalty deviance.
+        """ Return the gaussian length penalty deviance.
         :return: float :
         """
         return self.sigma

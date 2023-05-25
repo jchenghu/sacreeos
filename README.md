@@ -24,7 +24,7 @@ to those implementing SCST for the first time.
 ##### Main feature
 
 <ul>
-    <li> <b>SacreEOS signature generation. </b>
+    <li> SacreEOS signature generation.
     The package provides an easy interface for the generation of signatures
     that inform regarding the key aspects of the SCST implementation. This can be done
     either manually or automatically using the implementation helper.<br><br>
@@ -38,14 +38,14 @@ Established projects are only invited to manually generate the SacreEOS signatur
 
 
 <ul>
-    <li> <b>Mode and metric selection. </b>
+    <li> Mode and metric selection. 
     The user can customize the target SCST configuration according to its needs. The package currently 
     supports 2 SCST modes, 4 metrics and 2 bases. <br><br>
     </li>
-    <li> <b>Implementation helper. </b>
+    <li> Implementation helper. 
     Through a collection of exceptions and input conditions the user is guided toward an informed selection of SCST implementation. 
     <br><br></li>
-    <li> <b>Efficiency. </b>
+    <li> Efficiency. 
     For each metric, originally proposed in Python, an additional and optional C implementation 
     is provided. It can be toggled by setting one of the loss computation arguments. In case of 
     platform incompatibilities, the portability is still preserved thanks to the Python implementation. <br><br>
@@ -148,11 +148,11 @@ Arguments:
             - Scst.METRIC_BLEU: requires no args
             - Scst.METRIC_CIDER:  {'n': int}                # max number of ngram   
             - Scst.METRIC_CIDER_D : {'n': int,  
-                                     'sigma': float}         
+                                     'sigma': float}        # gaussial length penalty deviance
             - Scst.METRIC_CIDER_R: {'n': int,               
                                     'repeat_coeff': float,  # length and repeatition penalty weights, the two must sum to 1
                                     'length_coeff': float,  
-                                    'alpha': float}         # 
+                                    'alpha': float}         # gaussian length penalty deviance
 
     <> base_args: dictionary with base arg name as key and custom arg values as value
             - {'nspi': int}  # number of samples per input/image.
@@ -207,12 +207,10 @@ An example of usage can be found in the demo.
 
 - - - 
 
-#### Demo
+### Demo
 
 The demo sub-package provide an usage example of SacreEOS helper functionality. <br>
 It implements a small image captioning system to be trained with SCST.
-
-##### Requirements
 
 The demo requires a pre-trained model and data sampled from COCO. They
 can be found in this [drive](https://drive.google.com/drive/folders/1dCFLY0zBRKlV3QQlv6AiadzKaatnQHG8?usp=share_link)
@@ -260,7 +258,7 @@ End.
 
 - - -
 
-#### Credits
+### Credits
 
 This project is based on the work of [Rennie et al., 2017](https://arxiv.org/abs/1612.00563)
 and inspired by [SacreBLEU (Matt Post, 2018)](https://arxiv.org/abs/1804.08771).
