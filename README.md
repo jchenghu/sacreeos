@@ -1,8 +1,8 @@
 
 ### SacreEOS
 
-[SacreEOS](https://arxiv.org/abs/2305.12254) is a signature generator and 
-implementation helper for the [Self Critical Sequence Training](https://arxiv.org/abs/1612.00563). <br>
+SacreEOS [ [ICIAP2023](https://link.springer.com/chapter/10.1007/978-3-031-43148-7_4) ] [ [Arxiv](https://arxiv.org/abs/2305.12254) ] is a signature generator and 
+implementation helper for the Self Critical Sequence Training [ [Arxiv](https://arxiv.org/abs/1612.00563) ]. <br>
 
 ### Motivation
 
@@ -264,13 +264,18 @@ This project is based on the work of [Rennie et al., 2017](https://arxiv.org/abs
 and inspired by [SacreBLEU (Matt Post, 2018)](https://arxiv.org/abs/1804.08771).
 
 Reference:
+
 ```
-@article{hu2023request,
-  title={A request for clarity over the End of Sequence token in the Self-Critical Sequence Training},
-  author={Hu, Jia Cheng and Cavicchioli, Roberto and Capotondi, Alessandro},
-  journal={arXiv preprint arXiv:2305.12254},
-  year={2023}
+@InProceedings{10.1007/978-3-031-43148-7_4,
+author="Hu, Jia Cheng and Cavicchioli, Roberto and Capotondi, Alessandro",
+editor="Foresti, Gian Luca and Fusiello, Andrea and Hancock, Edwin",
+title="A Request for Clarity over the End of Sequence Token in the Self-Critical Sequence Training",
+booktitle="Image Analysis and Processing -- ICIAP 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="39--50",
+abstract="The Image Captioning research field is currently compromised by the lack of transparency and awareness over the End-of-Sequence token (<Eos>) in the Self-Critical Sequence Training. If the <Eos> token is omitted, a model can boost its performance up to +4.1 CIDEr-D using trivial sentence fragments. While this phenomenon poses an obstacle to a fair evaluation and comparison of established works, people involved in new projects are given the arduous choice between lower scores and unsatisfactory descriptions due to the competitive nature of the research. This work proposes to solve the problem by spreading awareness of the issue itself. In particular, we invite future works to share a simple and informative signature with the help of a library called SacreEOS. Code available at: https://github.com/jchenghu/sacreeos.",
+isbn="978-3-031-43148-7"
 }
 ```
-
-
