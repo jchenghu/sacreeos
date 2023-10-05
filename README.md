@@ -266,16 +266,16 @@ and inspired by [SacreBLEU (Matt Post, 2018)](https://arxiv.org/abs/1804.08771).
 Reference:
 
 ```
-@InProceedings{10.1007/978-3-031-43148-7_4,
-author="Hu, Jia Cheng and Cavicchioli, Roberto and Capotondi, Alessandro",
-editor="Foresti, Gian Luca and Fusiello, Andrea and Hancock, Edwin",
-title="A Request for Clarity over the End of Sequence Token in the Self-Critical Sequence Training",
-booktitle="Image Analysis and Processing -- ICIAP 2023",
-year="2023",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="39--50",
-abstract="The Image Captioning research field is currently compromised by the lack of transparency and awareness over the End-of-Sequence token (<Eos>) in the Self-Critical Sequence Training. If the <Eos> token is omitted, a model can boost its performance up to +4.1 CIDEr-D using trivial sentence fragments. While this phenomenon poses an obstacle to a fair evaluation and comparison of established works, people involved in new projects are given the arduous choice between lower scores and unsatisfactory descriptions due to the competitive nature of the research. This work proposes to solve the problem by spreading awareness of the issue itself. In particular, we invite future works to share a simple and informative signature with the help of a library called SacreEOS. Code available at: https://github.com/jchenghu/sacreeos.",
-isbn="978-3-031-43148-7"
-}
+@ARTICLE{Hu202339,
+	author = {Hu, Jia Cheng and Cavicchioli, Roberto and Capotondi, Alessandro},
+	title = {A Request for Clarity over the End of Sequence Token in the Self-Critical Sequence Training},
+	year = {2023},
+	journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
+	volume = {14233 LNCS},
+	pages = {39 – 50},
+	doi = {10.1007/978-3-031-43148-7_4},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85172256773&doi=10.1007%2f978-3-031-43148-7_4&partnerID=40&md5=1e371ad6c4af602bb57cd2e808271338},
+	type = {Conference paper},
+	publication_stage = {Final},
+	source = {Scopus},
 ```
