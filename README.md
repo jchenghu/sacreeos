@@ -278,4 +278,6 @@ Reference:
 	type = {Conference paper},
 	publication_stage = {Final},
 	source = {Scopus},
+	
+}
 ```
