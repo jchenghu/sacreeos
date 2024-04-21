@@ -266,7 +266,7 @@ and inspired by [SacreBLEU (Matt Post, 2018)](https://arxiv.org/abs/1804.08771).
 Reference:
 
 ```
-@InProceedings{10.1007/978-3-031-43148-7_4,
+@InProceedings{hu2023sacreeos,
 author="Hu, Jia Cheng
 and Cavicchioli, Roberto
 and Capotondi, Alessandro",
